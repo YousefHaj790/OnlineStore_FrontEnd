@@ -1,0 +1,25 @@
+.article{
+position: relative;
+top:12vh ;
+border: 2px solid #5D737E;
+margin: 0 2rem 0 2rem;
+border-radius: 1rem;
+}
+
+
+h1{
+text-align: center;
+font-size: 5rem;
+color: #5D737E;
+   margin-left: 10rem;
+}
+
+.about{
+    text-align: center;
+    margin: 5rem 10rem 0 10rem;
+    font-size: x-large;
+    font-weight: bolder;
+    color:#fca311;
+ 
+
+}

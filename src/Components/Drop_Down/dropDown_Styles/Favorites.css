@@ -1,0 +1,92 @@
+.Favorites-section {
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .Favorites-section > h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffff;
+  }
+  
+  .Favorites-section > .favorite-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .Favorites-section > .favorite-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .Favorites-section > .favorite-item > .favorite-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .Favorites-section > .favorite-item > .favorite-item-details {
+    text-align: left;
+    flex-grow: 1;
+  }
+  
+  .Favorites-section > .favorite-item > .favorite-item-details > p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .Favorites-section > .favorite-item > .favorite-item-details > p:first-child {
+    font-weight: bold;
+    color: #222;
+    font-size: 1.2rem;
+  }
+  
+  .Favorites-section > .favorite-item > button {
+    padding: 8px 16px;
+    background-color: #e74c3c; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .Favorites-section > .favorite-item > button:hover {
+    background-color: #c0392b; 
+    transform: translateY(-2px); 
+  }
+  
+  .Favorites-section > .favorite-item > button:active {
+    transform: translateY(1px); 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Favorites-section > .favorite-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .Favorites-section > .favorite-item > .favorite-item-image {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .Favorites-section > .favorite-item > .favorite-item-details {
+      text-align: center;
+    }
+  }
+  

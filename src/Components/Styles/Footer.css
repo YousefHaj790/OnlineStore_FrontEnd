@@ -1,0 +1,21 @@
+.Footer{
+    
+    height: 18rem;
+    background-color: #02111B;
+    position: relative;
+    bottom: 0 auto;
+z-index: -11;
+    margin-top: 30rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    
+}
+
+
+.Footer > p{
+text-align: center;
+color: #FCFCFC;
+font-size: 1.2rem;
+font-weight: bolder;
+    
+}

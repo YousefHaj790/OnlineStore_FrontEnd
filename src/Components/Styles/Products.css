@@ -1,0 +1,190 @@
+/* Main Products Section */
+.Products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: auto;
+  width: 80vw;
+  margin: 0 auto;
+  margin-left: 9.5rem;
+  gap: 2rem;
+  position: relative;
+  top: 20vh;
+  left: 10vw;
+  z-index: 0;
+  border-left: 2px solid #ffffff;
+  
+}
+
+p {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #fca311
+
+  ;
+}
+
+/* Product Images */
+.Products > div  {
+  margin-left: 2rem;
+  border-radius: 1rem;
+}
+
+/* Sidebar List */
+.sideList {
+  float: left;
+  width: 14rem;
+  border-radius: 0.7rem;
+  margin-top: 8rem;
+  margin-left: 3rem;
+  line-height: 5rem;
+  background-color: #fca311;
+}
+.sideList > ul{
+
+  margin-left: 2rem;
+}
+.sideList > ul > li {
+  font-size: 1rem;
+  font-weight: bolder;
+  list-style: none;
+  color: #ffffff;
+
+}
+
+.imgProduct:hover{
+  width: 230px;
+  height: 310px;
+cursor: pointer;
+}
+.sideList > ul > li:hover {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+a {
+  all: unset;
+}
+
+.Loading {
+  position: fixed;
+  width: 2rem;
+  height: 2rem;
+  right: 50vw;
+  bottom: 50vh;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1940px) {
+  .Products {
+    grid-template-columns: repeat(3, 1fr);
+    width: 85vw;
+    margin-left: 5rem;
+    left: 5vw;
+    gap: 1.5rem;
+    border: none;
+  }
+
+  .sideList {
+    float:none;
+    width: 80vw;
+  margin-left: 10vw;
+    text-align: center;
+    margin-top: 5rem;
+    line-height: 3rem;
+  }
+  
+  .sideList > ul{
+
+    margin-left: 0;
+  }
+  p {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .Products > div > img {
+    margin-left: 1rem;
+    width: 180px;
+    height: 250px;
+  }
+
+  .sideList>ul{
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .Products {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90vw;
+    margin-left: 2rem;
+    left: 2.5vw;
+    gap: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .Products > div > img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .sideList {
+    margin-top: 5rem;
+    line-height: 3rem;
+  }
+  .sideList>ul {
+margin-left: 0;
+  }
+
+
+
+}
+
+@media screen and (max-width: 670px) {
+  .Products {
+    grid-template-columns: 1fr;
+    width: 95vw;
+    margin-left: 0.5rem;
+    justify-content: center;
+    left: 0;
+  }
+
+  p {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+
+  .Products > div > img {
+    width: 120px;
+    height: 180px;
+    margin-left: 0.5rem;
+  }
+
+  .sideList {
+    margin-top: 2rem;
+    line-height: 4rem;
+    text-align: center;
+  }
+
+  .sideList > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sideList > ul > li {
+    font-size: 0.8rem;
+  }
+
+  .Loading {
+    width: 3rem;
+    height: 3rem;
+    right:40%;
+    bottom:50%;
+  }
+}

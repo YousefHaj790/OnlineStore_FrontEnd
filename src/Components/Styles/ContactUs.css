@@ -1,0 +1,138 @@
+.ContactForm {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 18rem;
+    box-sizing: border-box;
+  }
+  
+  .ContactForm>label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #fca311;
+    outline: none;
+    box-shadow: 0 0 5px rgba(252, 163, 17, 0.3);
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .ContactForm> img {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  .ERROR {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .SIGNIN_BTN {
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #fca311;
+    color: white;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SIGNIN_BTN:hover {
+    background-color: #e58f10;
+  }
+  
+  .SIGNIN_BTN:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .ContactForm > label {
+    font-weight: bold;
+  }
+  
+  .ContactForm > input,
+  .ContactForm > textarea {
+    margin-top: 10px;
+  }
+  
+  .ContactForm > .ERROR {
+    color: red;
+  }
+  
+  .ContactForm > .SIGNIN_BTN {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .ContactForm {
+      padding: 1.5rem;
+      width: 90%;
+    }
+  
+    input,
+    textarea {
+      padding: 10px;
+    }
+  
+    .SIGNIN_BTN {
+      font-size: 14px;
+      padding: 12px;
+    }
+  
+    .ERROR {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ContactForm {
+      padding: 1rem;
+      width: 100%;
+    }
+  
+    input,
+    textarea {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .SIGNIN_BTN {
+      font-size: 12px;
+      padding: 10px;
+    }
+  
+    .ERROR {
+      font-size: 12px;
+    }
+  }
+  

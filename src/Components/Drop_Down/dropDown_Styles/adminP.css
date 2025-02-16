@@ -1,0 +1,99 @@
+.admin-panel {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e5e5e5; 
+    border-radius: 8px;
+    background: #ffffff; 
+    margin-top: 8rem;
+}
+
+.admin-panel h2 {
+    text-align: center;
+    color: #333; 
+}
+
+.admin-panel form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-panel label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fca311; 
+}
+
+.admin-panel input,
+.admin-panel select {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #e5e5e5; 
+    border-radius: 4px;
+    background: #ffffff; 
+    color: #333; 
+    margin-right: 2rem;
+}
+
+.admin-panel button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #fca311; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.admin-panel button:hover {
+    background: #e58900;
+}
+
+.error-message {
+    color: #fca311; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.delete-section {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #fca311;
+}
+
+.delete-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.delete-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-section input,
+.delete-section select {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #333;
+}
+
+.delete-section button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #fca311;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete-section button:hover {
+    background: #e58900;
+}
